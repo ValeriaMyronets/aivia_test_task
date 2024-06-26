@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/aivia_test_task_demo/',
   plugins: [
     vue(),
     vueJsx(),
